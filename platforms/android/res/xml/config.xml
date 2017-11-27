@@ -1,8 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.belowaverage.webdows" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.belowaverage.webdows" version="6.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
     <name>Webdows</name>
     <description>
@@ -27,7 +30,9 @@
     <icon density="xxhdpi" src="res/icon/android/icon-144-xxhdpi.png" />
     <icon density="xxxhdpi" src="res/icon/android/icon-192-xxxhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
-    <preference name="BackgroundColor" value="transparent" />
+    <preference name="BackgroundColor" value="0xff000000" />
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <preference name="DisallowOverscroll" value="true" />
+    <preference name="ErrorUrl" value="webdows/resources/errorpages/generic.html" />
+    <preference name="DefaultVolumeStream" value="media" />
 </widget>

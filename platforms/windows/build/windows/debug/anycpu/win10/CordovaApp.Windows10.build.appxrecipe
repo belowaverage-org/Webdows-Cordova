@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BA-DYLANPC</Machine>
+    <WindowsUser>dylan</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f9896430-d2f9-11e7-860a-83c18ecb7589</PackageIdentityName>
+    <PackageIdentityPublisher>CN=6E63E126-30BA-4177-BAEA-970BD4938B7A</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\dylan\Desktop\abs\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\Users\dylan\Desktop\abs\platforms\windows\build\windows\debug\anycpu\win10\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\dylan\Desktop\abs\platforms\windows\build\windows\debug\anycpu\win10\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\nate\1.png">
+      <PackagePath>www\programs\nate\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\Web Explorer\1.png">
+      <PackagePath>www\programs\Web Explorer\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\Youtube Extractor\logo.png">
+      <PackagePath>www\programs\Youtube Extractor\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\bull.png">
+      <PackagePath>www\programs\youtube-sync\img\bull.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\chan.png">
+      <PackagePath>www\programs\youtube-sync\img\chan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\full.png">
+      <PackagePath>www\programs\youtube-sync\img\full.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\hide.png">
+      <PackagePath>www\programs\youtube-sync\img\hide.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\icon.png">
+      <PackagePath>www\programs\youtube-sync\img\icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\loa1.png">
+      <PackagePath>www\programs\youtube-sync\img\loa1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\loa2.png">
+      <PackagePath>www\programs\youtube-sync\img\loa2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\logs.png">
+      <PackagePath>www\programs\youtube-sync\img\logs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\mute.png">
+      <PackagePath>www\programs\youtube-sync\img\mute.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\next.png">
+      <PackagePath>www\programs\youtube-sync\img\next.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\plpa.png">
+      <PackagePath>www\programs\youtube-sync\img\plpa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\prev.png">
+      <PackagePath>www\programs\youtube-sync\img\prev.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\que.png">
+      <PackagePath>www\programs\youtube-sync\img\que.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\stop.png">
+      <PackagePath>www\programs\youtube-sync\img\stop.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\img\umut.png">
+      <PackagePath>www\programs\youtube-sync\img\umut.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\plyr\icon.png">
+      <PackagePath>www\programs\youtube-sync\plyr\icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\1.png">
+      <PackagePath>www\webdows\resources\explorer\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\10.png">
+      <PackagePath>www\webdows\resources\explorer\10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\2.png">
+      <PackagePath>www\webdows\resources\explorer\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\4.png">
+      <PackagePath>www\webdows\resources\explorer\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\6.png">
+      <PackagePath>www\webdows\resources\explorer\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\7.png">
+      <PackagePath>www\webdows\resources\explorer\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\8.png">
+      <PackagePath>www\webdows\resources\explorer\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\9.png">
+      <PackagePath>www\webdows\resources\explorer\9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\basic\thumbnail.png">
+      <PackagePath>www\webdows\resources\explorer\basic\thumbnail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\classic\clo.png">
+      <PackagePath>www\webdows\resources\explorer\classic\clo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\classic\cur.png">
+      <PackagePath>www\webdows\resources\explorer\classic\cur.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\classic\max.png">
+      <PackagePath>www\webdows\resources\explorer\classic\max.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\classic\min.png">
+      <PackagePath>www\webdows\resources\explorer\classic\min.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\classic\mmax.png">
+      <PackagePath>www\webdows\resources\explorer\classic\mmax.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\classic\sta.png">
+      <PackagePath>www\webdows\resources\explorer\classic\sta.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\classic\thumbnail.png">
+      <PackagePath>www\webdows\resources\explorer\classic\thumbnail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\cur.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\cur.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\exi.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\exi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\max.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\max.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\min.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\min.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\mmax.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\mmax.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\sb1.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\sb1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\sb2.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\sb2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\sba1.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\sba1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\sba2.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\sba2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\sba3.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\sba3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\sba4.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\sba4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\so1.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\so1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\so2.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\so2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\so3.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\so3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\thumbnail.png">
+      <PackagePath>www\webdows\resources\explorer\mobile\thumbnail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\cur.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\cur.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\exi.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\exi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\max.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\max.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\min.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\min.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\mmax.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\mmax.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\sb1.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\sb1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\sb2.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\sb2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\sba1.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\sba1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\sba2.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\sba2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\sba3.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\sba3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\sba4.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\sba4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\so1.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\so1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\so2.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\so2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\so3.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\so3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\thumbnail.png">
+      <PackagePath>www\webdows\resources\explorer\webdows\thumbnail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\clos.png">
+      <PackagePath>www\webdows\resources\icons\clos.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\ghub.png">
+      <PackagePath>www\webdows\resources\icons\ghub.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\logo.png">
+      <PackagePath>www\webdows\resources\icons\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\maxi.png">
+      <PackagePath>www\webdows\resources\icons\maxi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\mini.png">
+      <PackagePath>www\webdows\resources\icons\mini.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\plog.png">
+      <PackagePath>www\webdows\resources\icons\plog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\rest.png">
+      <PackagePath>www\webdows\resources\icons\rest.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\rogo.png">
+      <PackagePath>www\webdows\resources\icons\rogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\umlg.png">
+      <PackagePath>www\webdows\resources\icons\umlg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\welcome\1.png">
+      <PackagePath>www\webdows\resources\welcome\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\welcome\2.png">
+      <PackagePath>www\webdows\resources\welcome\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\.git">
+      <PackagePath>www\.git</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\.git">
+      <PackagePath>www\programs\youtube-sync\.git</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\.gitignore">
+      <PackagePath>www\.gitignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\.gitmodules">
+      <PackagePath>www\.gitmodules</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\cordova-js-src\confighelper.js">
+      <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\cordova-js-src\splashscreen.js">
+      <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\belowaverage-org\weblogon\service.js">
+      <PackagePath>www\programs\belowaverage-org\weblogon\service.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\belowaverage-org\weblogon\weblogon.js">
+      <PackagePath>www\programs\belowaverage-org\weblogon\weblogon.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\DOND\index.js">
+      <PackagePath>www\programs\DOND\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\ForkMe\index.js">
+      <PackagePath>www\programs\ForkMe\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\Game\Build\UnityLoader.js">
+      <PackagePath>www\programs\Game\Build\UnityLoader.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\Game\index.js">
+      <PackagePath>www\programs\Game\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\nate\satan.js">
+      <PackagePath>www\programs\nate\satan.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\Web Explorer\we.js">
+      <PackagePath>www\programs\Web Explorer\we.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\WS\index.js">
+      <PackagePath>www\programs\WS\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\Youtube Extractor\index.js">
+      <PackagePath>www\programs\Youtube Extractor\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\index.js">
+      <PackagePath>www\programs\youtube-sync\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\js\login.js">
+      <PackagePath>www\programs\youtube-sync\js\login.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\js\queue.js">
+      <PackagePath>www\programs\youtube-sync\js\queue.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\plyr\plyr.js">
+      <PackagePath>www\programs\youtube-sync\plyr\plyr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\test.js">
+      <PackagePath>www\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\belowaverage\explorer\piwik.js">
+      <PackagePath>www\webdows\belowaverage\explorer\piwik.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\belowaverage\explorer\popup.js">
+      <PackagePath>www\webdows\belowaverage\explorer\popup.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\belowaverage\system\cordova_check.js">
+      <PackagePath>www\webdows\belowaverage\system\cordova_check.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\belowaverage\system\piwik.js">
+      <PackagePath>www\webdows\belowaverage\system\piwik.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\calc.js">
+      <PackagePath>www\webdows\calc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\cmd.js">
+      <PackagePath>www\webdows\cmd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\config\explorer.startup.js">
+      <PackagePath>www\webdows\config\explorer.startup.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\explorer.js">
+      <PackagePath>www\webdows\explorer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\explorer_ext.js">
+      <PackagePath>www\webdows\explorer_ext.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\notepad.js">
+      <PackagePath>www\webdows\notepad.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\personalize.js">
+      <PackagePath>www\webdows\personalize.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\regedit.js">
+      <PackagePath>www\webdows\regedit.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\animation.js">
+      <PackagePath>www\webdows\resources\explorer\animation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\run.js">
+      <PackagePath>www\webdows\run.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\services\explorer\time.js">
+      <PackagePath>www\webdows\services\explorer\time.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\system.js">
+      <PackagePath>www\webdows\system.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\system32\kernel.js">
+      <PackagePath>www\webdows\system32\kernel.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\system32\loadscrn.js">
+      <PackagePath>www\webdows\system32\loadscrn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\system32\webldr.js">
+      <PackagePath>www\webdows\system32\webldr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\taskmgr.js">
+      <PackagePath>www\webdows\taskmgr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\webver.js">
+      <PackagePath>www\webdows\webver.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\welcome.js">
+      <PackagePath>www\webdows\welcome.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\credits.txt">
+      <PackagePath>www\credits.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\legalcode.txt">
+      <PackagePath>www\legalcode.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\license.txt">
+      <PackagePath>www\license.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\otherlicenses.txt">
+      <PackagePath>www\otherlicenses.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\Public\Documents\credits.txt">
+      <PackagePath>www\Public\Documents\credits.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\version.txt">
+      <PackagePath>www\version.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\css\inappbrowser.css">
+      <PackagePath>www\css\inappbrowser.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\css\splashscreen.css">
+      <PackagePath>www\css\splashscreen.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\plyr\plyr.css">
+      <PackagePath>www\programs\youtube-sync\plyr\plyr.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\basic\index.css">
+      <PackagePath>www\webdows\resources\explorer\basic\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\classic\index.css">
+      <PackagePath>www\webdows\resources\explorer\classic\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\explorer.css">
+      <PackagePath>www\webdows\resources\explorer\explorer.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\index.css">
+      <PackagePath>www\webdows\resources\explorer\mobile\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\index.css">
+      <PackagePath>www\webdows\resources\explorer\webdows\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\wire\index.css">
+      <PackagePath>www\webdows\resources\explorer\wire\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\popup.html">
+      <PackagePath>www\popup.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\plyr\plyr.html">
+      <PackagePath>www\programs\youtube-sync\plyr\plyr.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\errorpages\generic.html">
+      <PackagePath>www\webdows\resources\errorpages\generic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\package.json">
+      <PackagePath>www\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\Game\Build\New folder.json">
+      <PackagePath>www\programs\Game\Build\New folder.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\config.json">
+      <PackagePath>www\programs\youtube-sync\config.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\config\registry.json">
+      <PackagePath>www\webdows\config\registry.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\config\wfs.json">
+      <PackagePath>www\webdows\config\wfs.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\Game\Build\New folder.asm.code.unityweb">
+      <PackagePath>www\programs\Game\Build\New folder.asm.code.unityweb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\Game\Build\New folder.asm.framework.unityweb">
+      <PackagePath>www\programs\Game\Build\New folder.asm.framework.unityweb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\Game\Build\New folder.asm.memory.unityweb">
+      <PackagePath>www\programs\Game\Build\New folder.asm.memory.unityweb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\Game\Build\New folder.data.unityweb">
+      <PackagePath>www\programs\Game\Build\New folder.data.unityweb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\Youtube Extractor\hourglass.gif">
+      <PackagePath>www\programs\Youtube Extractor\hourglass.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\.gitattributes">
+      <PackagePath>www\programs\youtube-sync\.gitattributes</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\programs\youtube-sync\plyr\plyr.svg">
+      <PackagePath>www\programs\youtube-sync\plyr\plyr.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\bglos.svg">
+      <PackagePath>www\webdows\resources\explorer\mobile\bglos.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\bglos.svg">
+      <PackagePath>www\webdows\resources\explorer\webdows\bglos.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\balg.svg">
+      <PackagePath>www\webdows\resources\icons\balg.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\bvlg.svg">
+      <PackagePath>www\webdows\resources\icons\bvlg.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\Public\Desktop\placeholder">
+      <PackagePath>www\Public\Desktop\placeholder</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\Public\Music\placeholder">
+      <PackagePath>www\Public\Music\placeholder</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\Public\Pictures\placeholder">
+      <PackagePath>www\Public\Pictures\placeholder</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\Public\Videos\placeholder">
+      <PackagePath>www\Public\Videos\placeholder</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\readme.md">
+      <PackagePath>www\readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\1.ogg">
+      <PackagePath>www\webdows\resources\explorer\1.ogg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\1.woff">
+      <PackagePath>www\webdows\resources\explorer\1.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\mobile\bg.jpg">
+      <PackagePath>www\webdows\resources\explorer\mobile\bg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\explorer\webdows\bg.jpg">
+      <PackagePath>www\webdows\resources\explorer\webdows\bg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\aler.ico">
+      <PackagePath>www\webdows\resources\icons\aler.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\bmpi.ico">
+      <PackagePath>www\webdows\resources\icons\bmpi.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\calc.ico">
+      <PackagePath>www\webdows\resources\icons\calc.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\cont.ico">
+      <PackagePath>www\webdows\resources\icons\cont.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\desk.ico">
+      <PackagePath>www\webdows\resources\icons\desk.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\driv.ico">
+      <PackagePath>www\webdows\resources\icons\driv.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\exei.ico">
+      <PackagePath>www\webdows\resources\icons\exei.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\file.ico">
+      <PackagePath>www\webdows\resources\icons\file.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\fold.ico">
+      <PackagePath>www\webdows\resources\icons\fold.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\gifi.ico">
+      <PackagePath>www\webdows\resources\icons\gifi.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\info.ico">
+      <PackagePath>www\webdows\resources\icons\info.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\jpgi.ico">
+      <PackagePath>www\webdows\resources\icons\jpgi.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\medi.ico">
+      <PackagePath>www\webdows\resources\icons\medi.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\micr.ico">
+      <PackagePath>www\webdows\resources\icons\micr.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\misc.ico">
+      <PackagePath>www\webdows\resources\icons\misc.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\mous.ico">
+      <PackagePath>www\webdows\resources\icons\mous.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\netw.ico">
+      <PackagePath>www\webdows\resources\icons\netw.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\note.ico">
+      <PackagePath>www\webdows\resources\icons\note.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\pain.ico">
+      <PackagePath>www\webdows\resources\icons\pain.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\pers.ico">
+      <PackagePath>www\webdows\resources\icons\pers.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\pngi.ico">
+      <PackagePath>www\webdows\resources\icons\pngi.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\ques.ico">
+      <PackagePath>www\webdows\resources\icons\ques.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\rami.ico">
+      <PackagePath>www\webdows\resources\icons\rami.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\rege.ico">
+      <PackagePath>www\webdows\resources\icons\rege.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\runi.ico">
+      <PackagePath>www\webdows\resources\icons\runi.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\scre.ico">
+      <PackagePath>www\webdows\resources\icons\scre.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\stck.ico">
+      <PackagePath>www\webdows\resources\icons\stck.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\task.ico">
+      <PackagePath>www\webdows\resources\icons\task.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\tscr.ico">
+      <PackagePath>www\webdows\resources\icons\tscr.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\uaci.ico">
+      <PackagePath>www\webdows\resources\icons\uaci.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\warn.ico">
+      <PackagePath>www\webdows\resources\icons\warn.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\webdows\resources\icons\wpad.ico">
+      <PackagePath>www\webdows\resources\icons\wpad.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\www\WFS.php">
+      <PackagePath>www\WFS.php</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dylan\Desktop\abs\platforms\windows\build\windows\debug\anycpu\win10\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
