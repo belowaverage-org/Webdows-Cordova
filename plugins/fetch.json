@@ -22,5 +22,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-navigationbar-color": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-navigationbar-color@0.0.8"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }
